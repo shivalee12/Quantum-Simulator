@@ -11,7 +11,7 @@ Depending on what you are making, it can be a good idea to include screenshots o
 
 
 ## Usage
-For stimulating circuit you can use the following methods:
+For simulating circuit you can use the following methods:
 1. read_unitary()= Return a single unitary matrix (quantum operator) equivalant to all defined quantum operators until this point, i.e., the multiplication of all quantum operators in the defined order.
 2. read_state: Return the current quantum state of circuit.
 3. observing_probabilities(): Return the probabilisties of observing the basis states if all qubits are measured at this moment.
