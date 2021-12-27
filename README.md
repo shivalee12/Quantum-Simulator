@@ -24,7 +24,7 @@ You can contact on siafirst12@gmail.com
 I would like to extend my gratitude to QWorld Instructors
 
 ## License
-For open source projects, say how it is licensed.
+Apache License 2.0
 
 ## Project status
 Its partially done now 2-qubit gates are yet to be implemented
