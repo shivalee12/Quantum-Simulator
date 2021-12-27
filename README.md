@@ -7,7 +7,18 @@ Quantum Simulator
 
 
 ## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+for circuit: 
+
+![image.png](./image.png)
+
+my simulator:
+
+![image-1.png](./image-1.png)
+
+IBM simulator:
+
+![image-2.png](./image-2.png)
+![image-3.png](./image-3.png)
 
 
 ## Usage
