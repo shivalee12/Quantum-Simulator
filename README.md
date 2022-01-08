@@ -8,17 +8,16 @@ Quantum Simulator
 
 ## Visuals
 for circuit: 
-
-![image.png](./image.png)
+![image-4.png](./image-4.png)
 
 my simulator:
 
-![image-1.png](./image-1.png)
-
+![image-5.png](./image-5.png)
+![image-6.png](./image-6.png)
 IBM simulator:
 
-![image-2.png](./image-2.png)
-![image-3.png](./image-3.png)
+![image-7.png](./image-7.png)
+![image-8.png](./image-8.png)
 
 
 ## Usage
@@ -29,7 +28,7 @@ the gates that can be applied on it with their corresponding syntax and parametr
     1. h gate: .h(qubit_index)
     2. x gate: .x(qubit_index)
     3. z gate: .z(qubit_index)
-    4. rotation gate: .rotate(angle in radians, qubit_index)
+    4. rotation gate: .rotation(angle in radians, qubit_index)
 2. Two Qubit gates:
     1. cx gate: .cx(control,target)
     2. cz gate: .cz(control, target)
