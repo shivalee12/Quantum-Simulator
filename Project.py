@@ -180,8 +180,7 @@ class QuantumProgram:
             else:
                 pdt=self.Tensor_matrix(pdt,H_operator)
         self.unitary = self.mat_mat_mul(pdt,self.unitary)
-        self.job.append('.h('+str(qubit_index)+')')
-        #self.state_vector = self.vector_mat_mul(self.state_vector,self.unitary)
+        
         return 0
     
         
@@ -197,8 +196,7 @@ class QuantumProgram:
             else:
                 pdt=self.Tensor_matrix(pdt,x_operator)
         self.unitary = self.mat_mat_mul(pdt,self.unitary)
-        self.job.append('.z('+str(qubit_index)+')')
-        #self.state_vector = self.vector_mat_mul(self.state_vector,self.unitary)
+        
         return 0
         
     # Single-qubit Z-gate
@@ -212,8 +210,7 @@ class QuantumProgram:
             else:
                 pdt=self.Tensor_matrix(pdt,z_operator)
         self.unitary = self.mat_mat_mul(pdt,self.unitary)
-        self.job.append('.z('+str(qubit_index)+')')
-        #self.state_vector = self.vector_mat_mul(self.state_vector,self.unitary)
+        
         return 0
         
     # Single-qubit Rotation gate, the angle should be in radians
@@ -228,8 +225,7 @@ class QuantumProgram:
             else:
                 pdt=self.Tensor_matrix(pdt,operator)
         self.unitary = self.mat_mat_mul(pdt,self.unitary)
-        self.job.append('.rotation('+str(angle)+')')
-        #self.state_vector = self.vector_mat_mul(self.state_vector,self.unitary)
+        
         return 0   
     
     # 2-qubit cx gate
